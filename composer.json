@@ -1,0 +1,32 @@
+{
+    "name": "hamaelt/virus-scanner-laravel",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Hamail",
+            "email": "hamaelt@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "hamaelt\\virus-scanner-laravel\\": "src/"
+        }
+    },
+    "require": {
+        "ext-sockets": "*",
+        "illuminate/support": "*"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "hamaelt\\virus-scanner-laravel\\Providers\\ServiceProvider"
+            ]
+        }
+    },
+    "scripts": {
+        "release": [
+            "standard-version",
+            "git push --follow-tags origin main"
+        ]
+    }
+}
