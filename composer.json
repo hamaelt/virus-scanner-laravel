@@ -9,7 +9,7 @@
     ],
     "autoload": {
         "psr-4": {
-            "hamaelt\\virus-scanner-laravel\\": "src/"
+            "Hamaelt\\VirusScanner\\": "src/"
         }
     },
     "require": {
