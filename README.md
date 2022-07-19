@@ -32,3 +32,10 @@ However , you can manually add the service provider to your app/config.php file
   ];
 
 ```
+
+Implementation
+
+```
+Dependency inject the class VirusScanner.php
+$virusScanner->isVirus('filepath');
+```
